@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+
+
+    <title></title>
+  </head>
+  <body>
+
+  <div id="app">
+      <p v-if="attr.showHello">hello</p>
+
+      <p v-if="!attr.showWorld">world</p>
+
+      <button v-on:click="toggleAttr()">
+        Toggle
+      </button>
+  </div>
+
+
+  <script src="js/task_6_4.js"></script>
+  </body>
+</html>
